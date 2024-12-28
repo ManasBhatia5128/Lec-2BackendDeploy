@@ -32,7 +32,7 @@ app.get('/login', (req, res) => {
     res.send("<h1>Sample data</h1>"); // You can send any type of data
 })
 
-app.get('github', (req, res) => {
+app.get('/github', (req, res) => {
   res.send(retrivedData);
 })
 
