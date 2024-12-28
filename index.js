@@ -11,7 +11,7 @@ response.then((resp) => {
     throw new Error("Error while retriving data")
   }
   else{
-    return JSON.parse(resp);
+    return resp.json();
   }
 })
 .then((data) => {
